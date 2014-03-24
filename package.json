@@ -1,0 +1,42 @@
+{
+  "name":"pg-mongo",
+  "keywords":[
+    "mongodb", "postgres"
+  ],
+  "description":"Mongo interface to PostgreSQL",
+  "version":"0.1.0",
+  "author":{
+    "name":"Oleg Podsechin",
+    "email":"oleg@ionsquare.com"
+  },
+  "contributors":[
+    {
+      "name":"Oleg Podsechin",
+      "email":"oleg@ionsquare.com"
+    }
+  ],
+  "directories":{
+    "lib":"./lib"
+  },
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/olegp/pg-mongo.git"
+  },
+  "homepage":"https://github.com/olegp/pg-mongo/",
+  "main":"./lib/pg-mongo.js",
+  "engines":{
+    "node":">= 0.10.0"
+  },
+  "dependencies":{
+    "pg-sync":">= 0.1.0"
+  },
+  "devDependencies":{
+    "common-node":">= 0.10.7",
+    "fibers":">= 1.0.0"
+  },
+  "licenses":[
+    {
+      "type":"MIT"
+    }
+  ]
+}
